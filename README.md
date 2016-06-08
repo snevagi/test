@@ -1,4 +1,3 @@
-
 YODA Web Interface
 ==================
 
@@ -33,23 +32,13 @@ Use of YODA falls under one of three roles:
 	- Handling change requests (CRs)
 	- Documenting changes
 
-<h1 id='Sign_in_to_Yoda_Audit'>Sign in to YODA Audit</h1>
+<h2 id='Sign_in_to_Yoda_Audit'>Sign in to YODA Audit</h2>
 1. Sign on to YODA Audit. Go to <https://yoda.sj.us.am.ericsson.se/>
-	![alt tag](http://lmsotfy.com/so.png)|
+	<img alt="" src="C/Study/SignInYoda.png" width="50%" height="50%" />|
 	---|
 	Yoda Sign In Dialog Box|
-	
-
-	<img alt="" src="http://lmsotfy.com/so.png" width="450" height="300" />|
-	---|
-	Yoda Sign In Dialog Box|
-	
-	<img alt="" src="http://lmsotfy.com/so.png" width="50%" height="50%" class="thumbimage" />|
-	---|
-	Yoda Sign In Dialog Box|
-	
 	Enter your signum and LAN password, then click <tt>Log In</tt>. The initial query dialog box is displayed.
-	![alt tag](img/name)|
+	<img alt="" src="C/Study/AuditInitialQueryYoda.png" width="50%" height="50%" />|
 	---|
 	Initial Query Dialog Box|
 2. Enter your initial query. You have the following options:
@@ -58,7 +47,7 @@ Use of YODA falls under one of three roles:
 	* Project:Branch - Choose the project path and the branch of the file from the dropdown list. As shown in the example, the option "all:all" searches the list of files in all the projects and branches.
 	* Show - place a check in the box beside <tt>Verified Files</tt>, <tt>Unverified FIles</tt>, or both.
 3. Click <tt>Search</tt>. The search results are displayed.
-	![alt tag]((img/name))|
+	<img alt="" src="C/StudyAuditSearchResultsYoda.png" width="50%" height="50%" />|
 	---|
 	Audit Search Results|
 	You have the following options:
@@ -68,46 +57,47 @@ Use of YODA falls under one of three roles:
 	* Reassignment of Ownership (see Reassign Code Ownership) - to suggest the correct owner of a code file
 	* Query Ownership (see Query Code Ownership) - to identify what files a given person is assigned or owns, or to identify who owns a given file
 	
-<h1 id='Reassign_Code_Ownership'>Reassign Code Ownership</h1>
+<h2 id='Reassign_Code_Ownership'>Reassign Code Ownership</h2>
 1. Sign on to YODA Audit and enter your initial query with your signum (see [Sign in to Yoda Audit](#Sign_in_to_Yoda_Audit)) or, if you are already logged in, enter a new query (see [Query Code Ownership](#Query_Code_Ownership)). A regular expression in the <tt>Filename</tt> field is useful to limit the files for reassignment.
 2. Select the files you want to reassign. Either click the button to <tt>Mark All Reassign</tt> or click the radio button next to each file to reassign ownership.
 3. In the <tt>Reassign to</tt> field, enter the signum of the person you believe is the proper owner of the selected files.
-	![alt tag]((img/name))|
+	<img alt="" src="img/AuditReassignYoda.png" width="50%" height="50%" />|
 	---|
 	Audit Reassignment|
 4. Click <tt>Save</tt>. YODA marks the files as assigned to the signum you supplied.
 
-<h1 id='Decline_Code_Ownership'>Decline Code Ownership</h1>
+<h2 id='Decline_Code_Ownership'>Decline Code Ownership</h2>
 Decline ownership if you do not accept the assignment of one or more files assigned to you.
 1. Sign on to YODA Audit and enter your initial query (see [Sign in to Yoda Audit](#Sign_in_to_Yoda_Audit)) or, if you are already logged in, enter a new query (see [Query Code Ownership](#Query_Code_Ownership)). In the query, enter your signum and, if possible, a regular expression to limit the number of files returned.
 2. Select the files whose assignment you want to decline. Either click the button to <tt>Mark All Declined</tt> or click the radio button in the Decline columns next to each file to decline ownership assignment.
-	![alt tag](img/name)|
+	<img alt="" src="img/AuditDeclineYoda.png" width="50%" height="50%" />|
 	---|
 	Audit Decline Dialog Box|
 3. Click <tt>Save<tt>. YODA marks the files to indicate that they need to be assigned.
 
-<h1 id='Verify_Code_Ownership'>Verify Code Ownership</h1>
+<h2 id='Verify_Code_Ownership'>Verify Code Ownership</h2>
 Verify ownership if you accept the assignment of one or more files assigned to you.
 1. Sign on to YODA Audit and enter your initial query (see [Sign in to Yoda Audit](#Sign_in_to_Yoda_Audit)) or, if you are already logged in, enter a new query (see [Query Code Ownership](#Query_Code_Ownership)). In the query, enter your signum and select <tt>Show Unverified files</tt>.
 2. Select the files whose assignment you want to accept. Either click the button to <tt>Mark All Verified</tt> or click the radio button in the Verified columns next to each file to decline ownership assignment.
-	![alt tag](img/name)|
+	<img alt="" src="img/AuditVerifyYoda.png" width="50%" height="50%" />|
 	---|
 	Audit Verify Dialog Box|
 3. Click <tt>Save</tt>. YODA marks the files to indicate that you have accepted ownership (verified).
 
-<h1 id='Query_Code_Ownership>Query Code Ownership<h1>
+<h2 id='Query_Code_Ownership>Query Code Ownership<h2>
 The instructions in this section assume that you have already logged in as described in [Sign in to Yoda Audit](#Sign_in_to_Yoda_Audit), and you want to look at a new set of files.
 1. Change one or more search criteria.
 </br>	You have the following options:
-		* SIGNUM - enter a specific signum or a regular expression. The example shows "%", which indicates a search that includes those files assigned to anyone.
-		* Filename or Regex - enter the path or partial for a filename. If you prefer, enter a regular expression for the filename. The example searches for all filenames located in any "layer2/bridge" subdirectory within the "pkt" directory.
-		* Show - place a check in the box beside <tt>Verified Files</tt>, <tt>Unverified Files</tt>, or both.
-		![alt tag](img/name)|
+		* SIGNUM - enter a specific signum or a regular expression. The example shows "E%", which indicates a search that includes those files assigned to anyone whose SIGNUM starts with E.
+		* Filename or Regex - enter the path or partial for a filename. If you prefer, enter a regular expression for the filename. The example searches for all filenames.
+		* Project:Branch - Choose the project path and the branch of the file from the dropdown list. This example uses the option "/ipos/components:master", which gives the list of all files in the project "/ipos/components" and branch "master".
+	* Show - place a check in the box beside <tt>Verified Files</tt>, <tt>Unverified Files</tt>, or both.
+		<img alt="" src="img/QueryCriteriaYoda.png" width="50%" height="50%" />|
 		---|
 		Query Criteria|
 2. Click <tt>Search</tt>.
 </br>	The search results are displayed.
-		![alt tag](img/name)|
+		<img alt="" src="img/QueryResultsYoda.png" width="50%" height="50%" />|
 		---|
 		Query Results|
 		You have the following options:
