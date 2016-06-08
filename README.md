@@ -35,7 +35,7 @@ Use of YODA falls under one of three roles:
 
 <h1 id='Sign_in_to_Yoda_Audit'>Sign in to YODA Audit</h1>
 1. Sign on to YODA Audit. Go to <https://yoda.sj.us.am.ericsson.se/>
-	![alt tag](img/name)|
+	![alt tag](http://lmsotfy.com/so.png)|
 	---|
 	Yoda Sign In Dialog Box|
 	![alt tag](img/name)|
