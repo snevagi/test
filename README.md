@@ -38,9 +38,10 @@ Use of YODA falls under one of three roles:
 	![alt tag](http://lmsotfy.com/so.png)|
 	---|
 	Yoda Sign In Dialog Box|
-	![alt tag](img/name)|
-	---|
-	Yoda Sign In Dialog Box|
+	
+
+	<img alt="" src="http://lmsotfy.com/so.png" width="350" height="257" class="thumbimage" /></a>  <div class="thumbcaption">YODA Sign In Dialog Box</div>
+	
 	Enter your signum and LAN password, then click <tt>Log In</tt>. The initial query dialog box is displayed.
 	![alt tag](img/name)|
 	---|
