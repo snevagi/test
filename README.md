@@ -40,7 +40,7 @@ Use of YODA falls under one of three roles:
 	Yoda Sign In Dialog Box|
 	
 
-	<img alt="" src="http://lmsotfy.com/so.png" width="350" height="257" />|
+	<img alt="" src="http://lmsotfy.com/so.png" width="400" height="300" />|
 	---|
 	Yoda Sign In Dialog Box|
 	
