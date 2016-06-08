@@ -40,7 +40,9 @@ Use of YODA falls under one of three roles:
 	Yoda Sign In Dialog Box|
 	
 
-	<img alt="" src="http://lmsotfy.com/so.png" width="350" height="257" /></a>  <div>YODA Sign In Dialog Box</div>
+	<img alt="" src="http://lmsotfy.com/so.png" width="350" height="257" />|
+	---|
+	Yoda Sign In Dialog Box|
 	
 	<div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="/wiki/File:YodaSignIn.png" class="image"><img alt="" src="http://lmsotfy.com/so.png" width="350" height="257" class="thumbimage" /></a>  <div class="thumbcaption">YODA Sign In Dialog Box</div></div></div>|
 	---|
